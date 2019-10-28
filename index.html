@@ -10,18 +10,28 @@
 </head>
 <body>
   <script src="/JS/scripts.js"></script>
-  <div class="container_fluid">
-      <div class= "row">
-          <div class="card">
+  <div class="container">
+       <div class= "row">
+          <div class= "card">
+            <div align= "center">
             <h1 class= "card-title"><em>Akan Names</em></h1>
-            <img class="img-responsive" src="images/akan.jpg" height = "300px" width = "600pxalt="akan people">
-            <p> Child naming was such an honoured ritual in traditional. Naming was done in different ways. The Akan people, for instance, would name their children based on the day of the week when they were born. So what would your name be if your were born in Ghana. <strong><em>curious? </em></strong></strong> Find out for yourself just by entering your birth day below</p>
-            <div class="jumbotron"> 
-                <form onsubmit="event.preventDefault()">
-                  <label>Year of Birth</label> <br>
-                  <input type="Number" name="year" min= "1900" max= "2019" id = "yy" required ><br>
-                  <label>Month of Birth </label><br>
-                  <input type="number" name="month" min=  "1" max = "12" id= "mm" required ><br>
+            </div>
+            <img class="img-responsive" src="images/akan.jpg" height = "300px" width = "500pxalt="akan people">
+          </div>
+       </div> <br> <br> <br>
+       <div class="card">
+          <div class="jumbotron"> 
+              <div class="row">  
+                 <div class= "col-xl-8">
+                     <p> Child naming was such an honoured ritual in traditional African societies. Naming was done in different ways, based on occurences, season and day of the week. The Akan people from Ghana, for instance, would name their children based on the day of the week when they were born. So what would your name be if your were born in Ghana. <strong><em>curious? </em></strong></strong> Find out for yourself just by entering your birth day below</p>
+                 </div>
+
+                 <div class="col-xl-6">
+                     <form onsubmit="event.preventDefault()">
+                    <label>Year of Birth</label> <br>
+                    <input type="Number" name="year" min= "1900" max= "2019" id = "yy" required ><br>
+                    <label>Month of Birth </label><br>
+                    <input type="number" name="month" min=  "1" max = "12" id= "mm" required ><br>
                     <label>Date of Birth</label> <br>
                    <input type="number" name="day" min= "1" max= "31" id= "dd" required ><br>
                     <label for="radio">Male</label>
@@ -29,9 +39,10 @@
                    <label for="radio">Female</label>
                    <input type="radio" name="gender" value="female"id= "F" required>
                    <button class="btn btn-primary" onclick="akanNames()" value="submit" type="submit">Submit</button>
-               </form>
+                     </div>
+                  </form>
+              </div>
           </div>
-       </div>
       </div>
   </div>
 </body>
