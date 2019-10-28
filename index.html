@@ -13,20 +13,20 @@
       <div class= "row">
           <div class="card">
             <h1 class= "card-title"><em>Akan Names</em></h1>
-            <img class="img-responsive" src="images/akan.jpg" class="img-thumbnail"alt="akan people">
-            <p>What would your name be if your were born in Ghana. <strong><em>curious? </em></strong></strong> Find out for yourself just by entering your birth day below</p>
+            <img class="img-responsive" src="images/akan.jpg" height = "300px" alt="akan people">
+            <p style="blue"> What would your name be if your were born in Ghana. <strong><em>curious? </em></strong></strong> Find out for yourself just by entering your birth day below</p>
          <div class="jumbotron">
            <form>
              <label>Year of Birth</label> <br>
-             <input type="Number" name="Year"><br><br>
+             <input type="Number" name="Year" min= "1900" max= "2019" id = "yy" required ><br><br>
              <label>Month of Birth </label><br>
-             <input type="number" name="Month"><br><br>
+             <input type="number" name="Month" min=  "1" max = "12" id= "mm" required ><br><br>
               Date of Birth: <br>
-             <input type="number" name="Date"><br><br>
+             <input type="number" name="Date" min= "1" max= "31" id= "dd" required ><br><br>
              <label> <strong>Gender</strong><label> <br>
              <input type="radio" name="gender" value="male" checked> <em>Male<br><br>
              <input type="radio" name="gender" value="male" checked> <em>Female</em><br><br><br>
-             <input type="submit" value="Submit"><br>
+             <input type="submit" color= "green" value="Submit"><br>
            </form>
        </div>
       </div>
