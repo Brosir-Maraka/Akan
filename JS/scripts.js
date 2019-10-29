@@ -1,5 +1,5 @@
-var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Ama"];
-var maleNames = [" Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Ama"];
+var maleNames = [" Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var days = [
   "sunday",
   "Monday",
